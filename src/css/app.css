@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] { display: none !important; }
+
+.custom-input{
+    @apply pl-10 rounded-full w-full border-gray-300 shadow-glass h-10 bg-transparent focus:outline-none;
+}
+.custom-lable{
+    @apply font-medium text-base text-gray-800 ;
+}
+.btn{
+    @apply flex mt-8  items-center justify-center h-10 w-full text-white text-base font-medium shadow-lg rounded-3xl ring-1;
+}
+.modal-btn{
+    @apply flex items-center justify-center h-10 w-full text-white text-sm font-medium shadow-lg rounded-xl ring-1 ;
+}
